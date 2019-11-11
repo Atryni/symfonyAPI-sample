@@ -70,9 +70,8 @@ class MoviesController extends AbstractController
      *          }
      *     )
      * )
-     * @SWG\Parameter(name="", in="query", type="string", required=false, description="Title of movie")
-     * @SWG\Parameter(name="dateFrom", in="query", type="date", required=false, description="From date fo filter")
-     * @SWG\Parameter(name="dateTo", in="query", type="date", required=false, description="To date fo filter")
+     * @SWG\Parameter(name="dateFrom", in="query", type="string", required=false, description="From date fo filter")
+     * @SWG\Parameter(name="dateTo", in="query", type="string", required=false, description="To date fo filter")
      *
      * @param MovieService $movieService
      * @param null         $dateFrom
