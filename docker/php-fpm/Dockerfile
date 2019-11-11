@@ -11,4 +11,6 @@ CMD ["php-fpm", "-F"]
 
 WORKDIR /var/www/app
 
+COPY bin/composer bin/php-cs-fixer bin/.php_cs /usr/bin/
+
 EXPOSE 9000

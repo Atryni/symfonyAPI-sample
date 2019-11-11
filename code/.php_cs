@@ -18,7 +18,7 @@ return PhpCsFixer\Config::create()
     )
     ->setFinder(
         PhpCsFixer\Finder::create()
-            ->in(realpath(__DIR__ . '/../var/www/app/src/'))
+            ->in(realpath(__DIR__ . '/src/'))
             ->notName('*.xml')
             ->notName('*.yml')
             ->notName('*.twig')

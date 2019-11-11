@@ -19,7 +19,6 @@ services:
     build: docker/php-fpm
     volumes:
       - ./code:/var/www/app
-      - ./scripts:/scripts
       - ./docker/php-fpm/php.ini:/usr/local/etc/php/php.ini
     depends_on:
       - database

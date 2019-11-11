@@ -44,12 +44,12 @@ symfony-bash-root:
 	$(DC_REST_API_ROOT) /bin/bash
 
 symfony-build:
-	$(DC_REST_API) /bin/bash -c '/scripts/composer install && bin/console assets:install'
+	$(DC_REST_API) /bin/bash -c 'composer install && bin/console assets:install'
 	$(DC_REST_API) /bin/bash -c 'bin/console doctrine:database:create --if-not-exists --no-interaction && bin/console doctrine:migration:migrate --allow-no-migration --no-interaction'
 
 # 	REST_API run cs-fix
 symfony-csfix:
-	$(DC_REST_API) /bin/bash -c '/scripts/php-cs-fixer fix --config=/scripts/.php_cs'
+	$(DC_REST_API) /bin/bash -c 'php-cs-fixer fix --config=./.php_cs'
 
 # 	REST_API reset database
 symfony-database-reset:
