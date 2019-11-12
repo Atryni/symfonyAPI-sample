@@ -8,7 +8,7 @@ This is a complete stack for running Symfony 4 (latest version: Flex) into Docke
 First, clone this repository:
 
 ```bash
-git clone https://github.com/Atryni/docker-symfony.git
+git clone git@github.com:Atryni/symfonyAPI-sample.git
 ```
 
 Prepare docker-compose ports and network name by modifying default `.env` file parameters

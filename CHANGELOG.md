@@ -17,5 +17,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Project init.
 
 
-[Unreleased]: https://github.com/Atryni/docker-symfony/compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/Atryni/docker-symfony/releases/tag/v0.0.1
+[Unreleased]: https://github.com/Atryni/symfonyAPI-sample/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/Atryni/symfonyAPI-sample/releases/tag/v0.0.1
